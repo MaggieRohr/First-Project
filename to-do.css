@@ -14,7 +14,7 @@ div{
 h1 {
   color: white;
   text-align: center;
-  padding:10px 20px;
+  padding:15px 20px;
   margin: 0;
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
@@ -37,4 +37,32 @@ input{
 
 ul{
   color: white;
+  margin: 0;
+  padding: 0;
+}
+
+ul li:nth-child(odd) {
+  background: #DA70D6;
+}
+
+ul li:hover {
+  background: #696969;
+}
+
+ul li {
+   padding: 10px 10px 12px 20px;
+   background: #BA55D3;
+   font-size: 20px;
+   transition: 0.2s;
+   cursor: pointer;
+   position: relative;
+   list-style-type: none;
+   text-decoration: line-through;
+}
+
+.material-icons {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 10px 12px 20px;
 }
