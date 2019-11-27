@@ -36,7 +36,7 @@ input{
     margin-bottom: 30px;
     width: 500px;
     padding: center;
-    margin-left: 100px;
+    margin-left: 90px;
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
     opacity: 0.8;
 }
@@ -73,6 +73,11 @@ ul li {
   right: 0;
   top: 0;
   padding: 10px 10px 12px 20px;
+}
+
+.material-icons:hover {
+    background: red;
+    opacity: 0.5;
 }
 
 .addBtn {

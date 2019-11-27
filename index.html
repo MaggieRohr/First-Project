@@ -1,6 +1,7 @@
-<DOCTYPE html!>
+<!DOCTYPE html>
 
 <head>
+  <meta charset="utf-8"/>
   <title>Maggie's to-do list!</title>
   <link rel="stylesheet" href="to-do.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -9,20 +10,20 @@
 
 <body>
 
-<div id = "todo">
+<div id = "list">
   <h1>Create your own to-do list!</h1>
 
   <input type = "text" placeholder = "Type in a to-do here">
   <span onclick="newElements()" class="addBtn">Add</span>
 
 
-  <ul class = "todos">
-    <li><span><i class="material-icons">delete</i></span>Brush out the dog</li>
-    <li><span><i class="material-icons">delete</i></span>Clean the windows</li>
+  <ul id = "myTodos">
+    <li><i class="material-icons">delete</i>Brush out the dog</li>
+    <li><i class="material-icons">delete</i>Clean the windows</li>
       </ul>
 
 
 
- <script src="myScript.js"></script>
+ <script src="to-do.js"></script>
 
 </body>
