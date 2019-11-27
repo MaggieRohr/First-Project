@@ -1,17 +1,18 @@
 //Creating a new to-do when clicking the enter button
+var ul = document.querySelector("ul");
+document.querySelector('#newInput').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+      var li = document.createElement("li");
+      var spanElement = document.createElement("span");
+      var icon = document.createElement("i");
 
-
-//Creating a new todo when clicking the add button
-function myFunction(){
-  var li = document.getElementsByClassName("materials-icons");
-   li.parentNode.removeChild(li);
-};
-
+      var newTodoListItem = this.value;
+      this.value = " " ;
+      ul.appendChild(li).append(spanElement,newTodoListItem);
+    }
+});
 
 //Click on the trash can icons to close out the items entered
 
 
 //Creating a strike-through when clicking on an list item elements
-
-
-//Add a strike-through if list item is clicked
