@@ -94,5 +94,6 @@ ul li {
 }
 
 .addBtn:hover {
-  background: #696969;
+  background: #4dff4d;
+  opacity: 0.;
 }

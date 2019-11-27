@@ -5,7 +5,6 @@
   <title>Maggie's to-do list!</title>
   <link rel="stylesheet" href="to-do.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
 </head>
 
 <body>
@@ -13,13 +12,13 @@
 <div id = "list">
   <h1>Create your own to-do list!</h1>
 
-  <input type = "text" placeholder = "Type in a to-do here">
-  <span onclick="newElements()" class="addBtn">Add</span>
+  <input type = "text" id="newInput" placeholder = "Type in a to-do here">
+  <span onclick="newElement()" class="addBtn">Add</span>
 
 
   <ul id = "myTodos">
-    <li><i class="material-icons">delete</i>Brush out the dog</li>
-    <li><i class="material-icons">delete</i>Clean the windows</li>
+    <li><span><i class="material-icons">delete</i>Brush out the dog</span></li>
+    <li><span><i class="material-icons">delete</i>Clean the windows</span></li>
       </ul>
 
 
