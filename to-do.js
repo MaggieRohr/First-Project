@@ -1,14 +1,11 @@
-var input = document.querySelector("input[type = 'text']");
-var ul = document.querySelector("ul");
-var lists = document.querySelectorAll("li");
-var spans = document.getElementsByTagName("span");
-
 //Creating a new to-do when clicking the enter button
 
 
 //Creating a new todo when clicking the add button
-
-
+function myFunction(){
+  var li = document.getElementsByClassName("materials-icons");
+   li.parentNode.removeChild(li);
+};
 
 
 //Click on the trash can icons to close out the items entered
