@@ -63,7 +63,6 @@ ul li {
    cursor: pointer;
    position: relative;
    list-style-type: none;
-   text-decoration: line-through;
    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
    opacity: 0.8;
 }
