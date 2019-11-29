@@ -13,6 +13,3 @@ document.querySelector('#newInput').addEventListener('keypress', function (e) {
 });
 
 //Click on the trash can icons to close out the items entered
-
-
-//Creating a strike-through when clicking on an list item elements
