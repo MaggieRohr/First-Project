@@ -1,8 +1,3 @@
-
-
-
-
-
 class ToDo{
 	constructor(value, id){
 		this.mVal = value;
