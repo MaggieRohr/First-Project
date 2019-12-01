@@ -84,6 +84,6 @@ ul li {
 }
 
 .scrollable {
-  max-height: 350px;
+  max-height: 400px;
   overflow-y: scroll;
 }
